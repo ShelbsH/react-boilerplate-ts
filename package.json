@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "NODE_ENV=development node server/server.js --color",
-    "prod": "NODE_ENV=production webpack --progress --colors --profile"
+    "dev": "cross-env NODE_ENV=development node server/server.js --color",
+    "prod": "cross-env NODE_ENV=production webpack --progress --colors --profile"
   },
   "dependencies": {
     "express": "^4.16.3"

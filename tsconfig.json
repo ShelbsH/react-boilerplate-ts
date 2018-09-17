@@ -2,16 +2,15 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "lib": ["es6", "es7", "dom"],
     "jsx": "react",
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "removeComments": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,  
     "esModuleInterop": true,
-    "useBabel": true,
-    "isolatedModules": true,
-    "useCache": true
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "dist"]
 }
