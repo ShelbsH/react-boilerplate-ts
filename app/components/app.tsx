@@ -1,7 +1,7 @@
 import React from "react";
 import { hot } from "react-hot-loader";
-import { Main } from "./main";
+import { Main } from "app/components/main";
 
-const App: React.SFC = () => <Main message="Typescript" />;
+const App: React.SFC = () => <Main message="TypeScript" />;
 
 export default hot(module)(App);
