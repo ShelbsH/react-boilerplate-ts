@@ -1,11 +1,7 @@
 import React from "react";
 import "styles/components/main.scss";
 
-type Props = {
-  message: string;
-};
-
-export class Main extends React.Component<Props> {
+export class Main extends React.Component<{ message: string }> {
   render() {
     const { message } = this.props;
 
